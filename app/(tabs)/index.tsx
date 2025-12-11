@@ -40,7 +40,7 @@ if (Platform.OS === 'android') {
 const { width, height } = Dimensions.get('window');
 const RECORD_BUTTON_SIZE = 100;
 
-const GEMINI_API_KEY = 'AIzaSyBsF3TlxKQvEG46poRRzKUB7N6glzFCypU';
+const GEMINI_API_KEY = 'APIKEY';
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 const GEMINI_MODEL = 'gemini-2.0-flash';
 
